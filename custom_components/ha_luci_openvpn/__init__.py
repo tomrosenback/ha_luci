@@ -11,7 +11,7 @@ import voluptuous as vol
 
 from homeassistant.components.switch import (
     DOMAIN,
-    SwitchDevice,
+    SwitchEntity,
 )
 from homeassistant.const import (
     CONF_HOST,
