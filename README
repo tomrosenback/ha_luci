@@ -1,0 +1,24 @@
+# Integration between HA and Openwrt OpenVPN
+
+[Home Assistant](https://www.home-assistant.io/) OpenVPN - OpenWRT for HomeAssistant
+
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+
+# Integration between HA and Openwrt OpenVPN
+
+This component interacts with a Openwrt router OpenVPN component.
+It allows to enable/disable VPN's
+
+# Configuration
+
+In your configuration.yaml:
+
+```
+luci_openvpn:
+  host: <openwrt_ip>
+  username: !secret openwrt_user
+  password: !secret openwrt_password
+
+```
+
+Forked from https://gitlab.com/koying/ha_luci_openvpn
