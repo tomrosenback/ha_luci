@@ -7,9 +7,6 @@
   ],
   "dependencies": [],
   "codeowners": [
-    "@fbradyirl",
-    "@mzdrale",
-    "@koying",
     "@tomrosenback"
   ]
 }
